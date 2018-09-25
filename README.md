@@ -20,10 +20,10 @@
   hours the same three paragraph ofa textbook that everyone gets. If you’re anything like me, you
   probably will end up in my kind of situation:
 
-    -You probably will go to google and spending countless hours on [Stack Overflow](https://stackoverflow.com/) for answers with crazy terminology;
-    -Then   you will start looking for the [crazy terminology](https://www.oracle.com/technetwork/java/glossary-135216.html) and slowly transcribe the Stack Overflow text;
-    -Then realize  that now that you understand the topic better, you don't agree/need that answer...
-    -And back onto the loop.
+   - You probably will go to google and spending countless hours on [Stack Overflow](https://stackoverflow.com/) for answers with crazy terminology;
+   - Then   you will start looking for the [crazy terminology](https://www.oracle.com/technetwork/java/glossary-135216.html) and slowly transcribe the Stack Overflow text;
+   - Then realize  that now that you understand the topic better, you don't agree/need that answer...
+   - And back onto the loop.
 
   In a way, If you’re anything like me, it took you one hour to read up to here, because you didn’t
   know what Stack Overflow was, or maybe you looked up Jon Skeet, or maybe you looked up who [I](https://xkcd.com/1024/)

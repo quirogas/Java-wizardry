@@ -3,10 +3,10 @@
  * @Wizard Santiago Quiroga
  *
  * This class was made to help students learn how to move tiles in a two dimensional array.
- * Please use this a a tool for learning !! don't share this code with others unless they are
+ * Please use this  a tool for learning !! don't share this code with others unless they are
  * willing to abide by the same rule of learning. Wile I know this is not the best way write
- * java, I think it does depict how methods can be broken into peaces to ease the coding blocks
- * and make code much more readable. read only moveOver, moveLeft, and convine. The rest is just
+ * java, I think it does depict how methods can be broken into pieces to ease the coding blocks
+ * and make code much more readable. read only moveOver, moveLeft, and combine. The rest is just
  * extra stuff that can be used to learn other interesting things, but doesn't really help
  * understand the main concept of this class.
  */

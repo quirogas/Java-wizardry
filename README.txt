@@ -1,16 +1,16 @@
-# !!README PLEASE!!
+# !!README PLEASE!! #
 
-## Rules:
+## Rules: ##
  1. Although this is code that you may copy and paste, don't plagiarize it!
  2. Use this code as a leaning tool
  3. You break the rules, you take responsibility for it.
 
-## About:
+## About: ##
   Everyone has different approaches to learning code. For me coding is very hard, and sometimes
   I cannot understand how it works no matter how much I try. here you might find answers to some
   of those questions.
 
-## About me:
+## About me: ##
   I love coding in java, but I'm not an expert by any means. As much as I would like to be the next
   [Jon Skeet](https://stackoverflow.com/users/22656/jon-skeet). I started my coding career at a very
   late stage in the game, and I struggled a lot to learn what most already knew by heart, so once I
@@ -33,7 +33,7 @@
   discouraging.  Anyhow, I also wanna take this as an opportunity for those who know more than me
   to show off their skills and help others in the process. Thank you for reading :)
 
-## Have a Question ?
+## Have a Question ? ##
   -Create an issue:
     -Describe the issue as much as possible.
     -Give me a link with the stack Overflow.
@@ -43,7 +43,7 @@
     -quirogas@mail.gvus.edu
   -Pray to the goods of stack Overflow .
 
-## Sugestiong
+## Sugestiong ##
   -Email me.
   -Tell me in person.
   -Find the most convenient way for you to tell me.
@@ -55,7 +55,7 @@
   CIS 999 is a place where that is possible, but i'm not quite an admin, just a fanboy, so I have to send them your
   email address, and wait for their bureaucrats to take you in.
 
-## Contact
+## Contact ##
   email: quirogas@mail.gvsu.edu
 
 

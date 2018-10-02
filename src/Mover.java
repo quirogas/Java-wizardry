@@ -63,7 +63,7 @@ public class Mover {
    */
   public void moveLeft() {
      //I'm going to iterate through the segments of the array from top to bottom
-    for (int currentColumnIndex = 0; currentColumnIndex < board[0].length; ++currentColumnIndex){
+    for (int currentColumnIndex = 0; currentColumnIndex < board.length; ++currentColumnIndex){
       //Define the temporary segment
       int[] currentSegment;
 
@@ -82,6 +82,25 @@ public class Mover {
       board[currentColumnIndex] = currentSegment;
     }
   }
+
+  //TODO: comment
+  public void moveUp(){
+    for (int currentColumnIndex = 0; currentColumnIndex < board.length; ++currentColumnIndex){
+      int[] currentSegment;
+      
+      currentSegment = getColumn(currentColumnIndex);
+      
+      currentSegment = moveOver(currentSegment);
+      
+      currentSegment = combine(currentSegment);
+      
+      currentSegment = moveOver(currentSegment);
+
+      setColumn(currentColumnIndex, currentSegment);
+    }
+  }
+  
+  
 
 
   /**
@@ -171,6 +190,26 @@ public class Mover {
   }
 
 
+  //TODO: comment
+  private int [] getColumn(int columnIndex){
+    int [] column = new int[board[columnIndex].length];
+
+    for (int index = 0;  index < board[columnIndex].length; ++index){
+        column[index] = board[index][columnIndex];
+    }
+
+    return column;
+  }
+
+
+  //TODO: comment
+  private void  setColumn(int columnIndex,int [] columnSegment){
+    for (int index = 0; index < board[columnIndex].length; ++index){
+      board[index][columnIndex] = columnSegment[index];
+    }
+  }
+
+
   /**
    * main method.
    * @param args
@@ -178,8 +217,11 @@ public class Mover {
   public static void main(String[] args) {
     Mover test = new Mover();
 
-    System.out.println("MoveLeft()");
-    test.moveLeft();
+//    System.out.println("MoveLeft()");
+//    test.moveLeft();
+
+    System.out.println("MoveUp()");
+    test.moveUp();
 
     System.out.println();
     test.printBoard();

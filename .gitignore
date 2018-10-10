@@ -128,5 +128,7 @@ tags
 # Persistent undo
 [._]*.un~
 
+# Ignore class files
+[._]*.class
 
 # End of https://www.gitignore.io/api/vim,macos,intellij
